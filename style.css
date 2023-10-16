@@ -11,10 +11,36 @@ body{
     min-height:100vh ;
 }
 .container{
-    background-color: black;
+    /* background-color: black; */
     padding: 50px;
 }
 
 .digit{
     font-size: 150px;
+}
+
+.txt{
+    font-size: 40px;
+    font-weight: 600;
+}
+.btn-row{
+    width: 70%;
+    margin: 20px auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    padding: 10px 30px;
+    /* color: white; */
+}
+
+#start{ 
+    background-color: #1abc9c;
+}
+#stop{
+    background-color: #3498db;
+}
+#reset{
+    background-color: #e74c3c;
 }
