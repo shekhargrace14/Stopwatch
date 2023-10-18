@@ -33,6 +33,12 @@ body{
 button{
     padding: 10px 30px;
     /* color: white; */
+
+    font-size: 15px;
+    margin: 0px 15px;
+    color: white;
+    border: 0px;
+    cursor: pointer;
 }
 
 #start{ 
